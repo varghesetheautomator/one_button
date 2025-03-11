@@ -1,0 +1,26 @@
+class HomePageSelectors:
+    """Class for One Button Home Page"""
+
+    ALERTS = "//div[contains(@class,'ant-notification-bottomLeft')]//nz-notification"
+    FIRST_DATA = "(//a[@class='link'])[1]"
+    FIRST_DATA_CSS = "div:nth-child(1) > div:nth-child(2) > app-opportunity-id-admin > div > a"
+    FIRST_OP_ID = "(//div[@col-id='salesForceId']//app-normal)[1]"
+    SPINNER = "//div[@class='hash-loader']"
+    CONTRACT_WAIT_SPINNER = "//i[@class='fa fa-spinner fa-spin ng-star-inserted']"
+
+    HOME_MAIN_LOGO = "//*[@id='main-logo']"
+    HOME_ONEBUTTON_LOGO = "//*[@id='app-logo']"
+    TESTCONTRACTOR_DROPDOWN = "//*[@id='dropdownUser1']"
+    ALL_OPPORTUNITIES = "//span[text()='All Opportunities']"
+    ASSIGNED_TO_ME = "//span[@class='sort_btn curser-pointer']"
+    HOME_SEARCH_FIELD = "//input[@id='floatingInputGrid']"
+    HOME_FROM_DATEPICKER = "//input[@name='fromDate']"
+    HOME_TO_DATEPICKER = "//input[@name='toDate']"
+
+    HOME_SEARCH_ICON = "//button[@class='ant-btn ant-btn-primary']"
+    HOME_EXCEL_ICON = "//img[@class='excel-icon']"
+    SELECT_SALESPERSON_DROPDOWN = "//nz-select[@nzplaceholder='Select Sales Person']"
+    ASSIGN_BUTTON = "//button[normalize-space()='Assign']"
+    HOME_PAGE_NAME = "//button[normalize-space()='Name']"
+    FROM_DATE = "//input[@id='fromDate']"
+    NO_RECORDS_FOUND = "//span[normalize-space()='No records found']"

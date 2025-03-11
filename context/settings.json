@@ -1,0 +1,6 @@
+{
+  "url": "https://testapps.trinity-solar.com/OneButton/#/",
+  "browser": "chrome",
+  "driver_timeout": "20",
+  "role": "admin"
+}
